@@ -1,0 +1,225 @@
+Input/Output Testing for Chef Game
+
+Testing Round 1 - Aim: Win the Game
+
+Test									Input					Expected Result					Actual Result
+Start screen appears when game run 		type ./chef 			Window opens					Window opens
+Start message appears					NA 						"Press S to start"				"Press S to start"
+Change from start screen to level 1		Press S 				Level 1 appears					Level 1 appears
+
+Move player left on level 0				Use left arrow key		Player does not move			Player does not move
+Move player right on level 0			Use right arrow key		Player does not move			Player does not move
+Move player up on level 0				Use up arrow key		Player does not move			Player does not move
+Move player down on level 0				Use down arrow key		Player does not move			Player does not move
+
+Move player left on level 1				Use left arrow key		Player moves left				Player moves left
+Move player right on level 1			Use right arrow key		Player moves right				Player moves right
+Move player up on level 1				Use up arrow key		Player moves up					Player moves up
+Move player down on level 1				Use down arrow key		Player moves down				Player moves down
+
+Move player left on level 2				Use left arrow key		Player moves left				Player moves left
+Move player right on level 2			Use right arrow key		Player moves right				Player moves right
+Move player up on level 2				Use up arrow key		Player moves up					Player moves up
+Move player down on level 2				Use down arrow key		Player moves down				Player moves down
+
+Level 1 recipe displays on level 1		NA						Tomato Pasta recipe appears		Tomato Pasta recipe appears
+																with Tomato and Pasta as 		with Tomato and Pasta as
+																ingredients						ingredients
+Level 2 recipe displays on level 2		NA						Healthy Pasta recipe appears	Healthy Pasta recipe appears
+																with Tomato, Pasta and			with Tomato, Pasta and
+																Spinach as ingredients 			Spinach as ingredients 
+
+Score starts at 0						NA						Score = 0						Score = 0
+Score increases on level 1 when item 	Use arrow keys to		Score increases by 10			Score increases by 10
+picked up								collide with object		for each object					for each object
+Score increases on level 2 when item 	Use arrow keys to		Score increases by 20			Score increases by 20
+picked up								collide with object		for each object					for each object
+Score increases when meal is complete 	Press C when complete	Score increases by 100			Score increases by 100
+
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 1						collide with Tomato		records Tomato					records Tomato
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 1						collide with Pasta		records Pasta					records Pasta
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 2						collide with Spinach	records Spinach					records Spinach
+
+Changing levels from 1 to 2				Press C when recipe		Window changes from level 1		Window changes from level 1	
+										matches inventory		to level 2						to level 2
+Changing to end screen					Press C when recipe		Window changes from level 2		Window changes from level 2	
+										matches inventory		to end game screen				to end game screen
+										on level 2
+End screen message						NA						Displays a win message and		Displays a win message and
+																final score						final score
+
+
+
+Testing Round 2 - Aim: Win the Game Again
+
+Test									Input					Expected Result					Actual Result
+Start screen appears when game run 		type ./chef 			Window opens					Window opens
+Start message appears					NA 						"Press S to start"				"Press S to start"
+Change from start screen to level 1		Press S 				Level 1 appears					Level 1 appears
+
+Move player left on level 0				Use left arrow key		Player does not move			Player does not move
+Move player right on level 0			Use right arrow key		Player does not move			Player does not move
+Move player up on level 0				Use up arrow key		Player does not move			Player does not move
+Move player down on level 0				Use down arrow key		Player does not move			Player does not move
+
+Move player left on level 1				Use left arrow key		Player moves left				Player moves left
+Move player right on level 1			Use right arrow key		Player moves right				Player moves right
+Move player up on level 1				Use up arrow key		Player moves up					Player moves up
+Move player down on level 1				Use down arrow key		Player moves down				Player moves down
+
+Move player left on level 2				Use left arrow key		Player moves left				Player moves left
+Move player right on level 2			Use right arrow key		Player moves right				Player moves right
+Move player up on level 2				Use up arrow key		Player moves up					Player moves up
+Move player down on level 2				Use down arrow key		Player moves down				Player moves down
+
+Level 1 recipe displays on level 1		NA						Tomato Pasta recipe appears		Tomato Pasta recipe appears
+																with Tomato and Pasta as 		with Tomato and Pasta as
+																ingredients						ingredients
+Level 2 recipe displays on level 2		NA						Healthy Pasta recipe appears	Healthy Pasta recipe appears
+																with Tomato, Pasta and			with Tomato, Pasta and
+																Spinach as ingredients 			Spinach as ingredients 
+
+Score starts at 0						NA						Score = 0						Score = 0
+Score increases on level 1 when item 	Use arrow keys to		Score increases by 10			Score increases by 10
+picked up								collide with object		for each object					for each object
+Score increases on level 2 when item 	Use arrow keys to		Score increases by 20			Score increases by 20
+picked up								collide with object		for each object					for each object
+Score increases when meal is complete 	Press C when complete	Score increases by 100			Score increases by 100
+
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 1						collide with Tomato		records Tomato					records Tomato
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 1						collide with Pasta		records Pasta					records Pasta
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 2						collide with Spinach	records Spinach					records Spinach
+
+Changing levels from 1 to 2				Press C when recipe		Window changes from level 1		Window changes from level 1	
+										matches inventory		to level 2						to level 2
+Changing to end screen					Press C when recipe		Window changes from level 2		Window changes from level 2	
+										matches inventory		to end game screen				to end game screen
+										on level 2
+End screen message						NA						Displays a win message and		Displays a win message and
+																final score						final score
+
+
+
+Round 3 - Aim: Lose the Game on Level 1
+
+Start screen appears when game run 		type ./chef 			Window opens					Window opens
+Start message appears					NA 						"Press S to start"				"Press S to start"
+Change from start screen to level 1		Press S 				Level 1 appears					Level 1 appears
+
+Move player left on level 0				Use left arrow key		Player does not move			Player does not move
+Move player right on level 0			Use right arrow key		Player does not move			Player does not move
+Move player up on level 0				Use up arrow key		Player does not move			Player does not move
+Move player down on level 0				Use down arrow key		Player does not move			Player does not move
+
+Move player left on level 1				Use left arrow key		Player moves left				Player moves left
+Move player right on level 1			Use right arrow key		Player moves right				Player moves right
+Move player up on level 1				Use up arrow key		Player moves up					Player moves up
+Move player down on level 1				Use down arrow key		Player moves down				Player moves down
+
+Level 1 recipe displays on level 1		NA						Tomato Pasta recipe appears		Tomato Pasta recipe appears
+																with Tomato and Pasta as 		with Tomato and Pasta as
+																ingredients						ingredients
+
+Score starts at 0						NA						Score = 0						Score = 0
+Score increases on level 1 when item 	Use arrow keys to		Score increases by 10			Score increases by 10
+picked up								collide with object		for each object					for each object
+Score does not increase when item		Use arrow keys to		Score does not increase			Score does not increase
+is not supposed to be picked up			collide with Spinach
+										on level 1
+
+Lose message is displayed				Press C when recipe		Lose message is displayed		Lose message is displayed
+										is not completed
+
+
+
+Round 4 - Aim: Lose the Game on Level 1 Again
+
+Start screen appears when game run 		type ./chef 			Window opens					Window opens
+Start message appears					NA 						"Press S to start"				"Press S to start"
+Change from start screen to level 1		Press S 				Level 1 appears					Level 1 appears
+
+Move player left on level 0				Use left arrow key		Player does not move			Player does not move
+Move player right on level 0			Use right arrow key		Player does not move			Player does not move
+Move player up on level 0				Use up arrow key		Player does not move			Player does not move
+Move player down on level 0				Use down arrow key		Player does not move			Player does not move
+
+Move player left on level 1				Use left arrow key		Player moves left				Player moves left
+Move player right on level 1			Use right arrow key		Player moves right				Player moves right
+Move player up on level 1				Use up arrow key		Player moves up					Player moves up
+Move player down on level 1				Use down arrow key		Player moves down				Player moves down
+
+Level 1 recipe displays on level 1		NA						Tomato Pasta recipe appears		Tomato Pasta recipe appears
+																with Tomato and Pasta as 		with Tomato and Pasta as
+																ingredients						ingredients
+
+Score starts at 0						NA						Score = 0						Score = 0
+Score increases on level 1 when item 	Use arrow keys to		Score increases by 10			Score increases by 10
+picked up								collide with object		for each object					for each object
+Score does not increase when item		Use arrow keys to		Score does not increase			Score does not increase
+is not supposed to be picked up			collide with Spinach
+										on level 1
+
+Lose message is displayed				Press C when recipe		Lose message is displayed		Lose message is displayed
+										is not completed
+
+
+
+
+Testing Round 5 - Aim: Lose the Game on Level 2
+
+Test									Input					Expected Result					Actual Result
+Start screen appears when game run 		type ./chef 			Window opens					Window opens
+Start message appears					NA 						"Press S to start"				"Press S to start"
+Change from start screen to level 1		Press S 				Level 1 appears					Level 1 appears
+
+Move player left on level 0				Use left arrow key		Player does not move			Player does not move
+Move player right on level 0			Use right arrow key		Player does not move			Player does not move
+Move player up on level 0				Use up arrow key		Player does not move			Player does not move
+Move player down on level 0				Use down arrow key		Player does not move			Player does not move
+
+Move player left on level 1				Use left arrow key		Player moves left				Player moves left
+Move player right on level 1			Use right arrow key		Player moves right				Player moves right
+Move player up on level 1				Use up arrow key		Player moves up					Player moves up
+Move player down on level 1				Use down arrow key		Player moves down				Player moves down
+
+Move player left on level 2				Use left arrow key		Player moves left				Player moves left
+Move player right on level 2			Use right arrow key		Player moves right				Player moves right
+Move player up on level 2				Use up arrow key		Player moves up					Player moves up
+Move player down on level 2				Use down arrow key		Player moves down				Player moves down
+
+Level 1 recipe displays on level 1		NA						Tomato Pasta recipe appears		Tomato Pasta recipe appears
+																with Tomato and Pasta as 		with Tomato and Pasta as
+																ingredients						ingredients
+Level 2 recipe displays on level 2		NA						Healthy Pasta recipe appears	Healthy Pasta recipe appears
+																with Tomato, Pasta and			with Tomato, Pasta and
+																Spinach as ingredients 			Spinach as ingredients 
+
+Score starts at 0						NA						Score = 0						Score = 0
+Score increases on level 1 when item 	Use arrow keys to		Score increases by 10			Score increases by 10
+picked up								collide with object		for each object					for each object
+Score increases on level 2 when item 	Use arrow keys to		Score increases by 20			Score increases by 20
+picked up								collide with object		for each object					for each object
+Score increases when meal is complete 	Press C when complete	Score increases by 100			Score increases by 100
+																								for level 1 only
+
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 1						collide with Tomato		records Tomato					records Tomato
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 1						collide with Pasta		records Pasta					records Pasta
+Player inventory UI displays items		Use arrow keys to 		Player inventory UI				Player inventory UI
+picked up level 2						collide with Spinach	records Spinach					records Spinach
+
+Changing levels from 1 to 2				Press C when recipe		Window changes from level 1		Window changes from level 1	
+										matches inventory		to level 2						to level 2
+Lose message is displayed				Press C when recipe		Lose message is displayed		Lose message is not displayed
+										is not completed
+
+
+
+
